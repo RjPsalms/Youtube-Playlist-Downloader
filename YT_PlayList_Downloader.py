@@ -292,11 +292,6 @@ class YouTubeDownloaderApp(ctk.CTk):
         self.link_entry.delete(0, "end")
         self.cancel_button.configure(state="disabled")
         
-    def load_thumbnail(self, url):
-        response = requests.get(url)
-        img = Image.open(BytesIO(response.content))
-        thumbnail = ctk.CTkImage(img, size=(160,90))
-        return thumbnail
 
 if __name__ == "__main__":
     app = YouTubeDownloaderApp()
