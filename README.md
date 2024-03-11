@@ -35,10 +35,9 @@ A Python-based GUI application to download YouTube playlists and individual vide
    ```
 
 ## Usage
-
-1. Run the application by executing the script:
+1. Run the application by executing the script: | or just simply install the executable also available for download.
    ```bash
-   python your_script_name.py
+   python YT_Playlist_Download.py
    ```
 
 2. Enter the YouTube playlist link or video link in the provided entry field.
